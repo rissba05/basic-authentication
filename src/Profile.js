@@ -27,7 +27,7 @@ const Profile = () => {
 
   const checkUser = () => {
     try {
-      const data = await Auth.currentUserPoolUser();
+      const data = Auth.currentUserPoolUser();
       const userInfo = { 
           username: data.username
           , ...data.attributes
