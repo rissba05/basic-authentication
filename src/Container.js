@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Container = ({ children }) => ( // <-- expression evaluation, not a "{" which indicates 1 or more code statements
+const Container = ({ children }) => ( // <-- "(" is an expression evaluation, not a "{" which indicates 1 or more code statements
   <div 
     style={styles.container}
   >
